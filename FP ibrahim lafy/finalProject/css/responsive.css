@@ -1,0 +1,101 @@
+@media (max-width:684px) {
+    .comunity-sec .container {
+        flex-direction: column;
+    }
+    .comunity-sec .container .right-side ul  {
+        display: none;
+    }
+    .comunity-sec .container .right-side {
+        position: relative;
+        transition: 0.3s;
+    }
+    .comunity-sec .container .right-side h1:hover + ul
+    {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+      position: absolute;
+      top: -12rem;
+      left: 0;
+      color: #F0F4F9;
+      background-color: #685974;
+      width: 100%;
+      padding: 0.4rem;
+      text-align: center;
+      justify-content: center;
+      gap: 0.4rem;
+      z-index: 1;
+    }
+    section .container .containt .left-side img:first-child  {
+        margin-left: 2rem;
+        align-items: center;
+        width: 340px;
+        justify-content: center;
+    }
+    section .container .containt .left-side .small  {
+        width: 80px;
+        height: 80px;
+        background-image: none;
+    }
+    section .container .containt .left-side .small img {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width:1055px) {
+    .hero {
+        display: none;
+    }
+    .header .container .logo p {
+        display: none;
+    }
+    .header .container .nav .link  {
+     display: none;
+    }
+    .header .container .nav .link a {
+        color:#F0F4F9;
+    }
+    .header .container .nav  .nav-bar {
+    display: block; 
+    }
+    .header .container .nav {
+        gap: 1rem;
+    }
+    .home .container .dis-box {
+    width: 95%;
+
+    }
+    .home .container {
+        height: 700px;
+        gap: 1rem;
+    }
+    .home .container .right-side img {
+        position: relative;
+        top: -70px;
+        height: 300px;
+        width: 320px;
+    }
+    .home .container .dis-box .img-box p {
+        display: none;
+    }
+    .comunity-sec .container .right-side {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    section .container .containt {
+        margin-left: 1rem;
+        flex-wrap: wrap;
+    }
+    section .container .containt .right-side .under {
+      width: 95%;
+    }
+    .subscipe .container .part-right form {
+        width: 100%
+        
+    }
+    /* .comunity-sec .container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    } */
+
+
+}
